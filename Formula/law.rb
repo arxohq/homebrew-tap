@@ -6,20 +6,20 @@
 class Law < Formula
   desc "Arxo Law: execute a pinned canon — cases, packages, questions with proof"
   homepage "https://www.arxo.io"
-  version "0.2.2"
+  version "0.2.8"
   license "Apache-2.0"
 
   on_macos do
     on_arm do
       url "https://github.com/arxohq/law-releases/releases/download/law-v#{version}/law-#{version}-aarch64-apple-darwin.tar.gz"
-      sha256 "fe556747a5e2a3f9d2e6f09ea5740ba3a88c5c81166f57bc4708f55054fa6a59"
+      sha256 "53514a9fa4c36846f679286deed55452e81c0db902ff647d4f84067deb23ece5"
     end
   end
 
   on_linux do
     on_intel do
       url "https://github.com/arxohq/law-releases/releases/download/law-v#{version}/law-#{version}-x86_64-unknown-linux-gnu.tar.gz"
-      sha256 "50c2f2882458d136fcf9c0fdeeaa92bc801ac1b713e35a22ec7e365149106419"
+      sha256 "324bbd621be04d6953b773d9378f325c78be4ff9c90a7099c8e5a6f2c1359b06"
     end
   end
 
